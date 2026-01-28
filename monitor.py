@@ -6,7 +6,7 @@ import os
 import requests
 
 # --- [1. 설정 영역] ---
-TARGET_URL = "https://newsac.kosac.re.kr/public/program/thumb?size=28&institutionId=83,72,51,58,60,84,57,78,50,52,75,74,65,86,79,70,56,53,81,89,45,47,63,55,64,62,67,88,54,85,66,49,48,77,80,87,61,69,73&targetCode=C0601&operationStatusCode=C1102,C1101"
+TARGET_URL = "https://newsac.kosac.re.kr/public/program/thumb?size=28&institutionId=83,72,51,58,60,84,57,78,50,52,75,74,65,86,79,70,56,53,81,89,45,47,63,55,64,68,62,67,88,54,85,66,49,48,77,80,87,61,69,73&programTypeCode=C0101&programRegionCode=C0504&targetCode=C0601&operationStatusCode=C1102&schoolLevelCode=G007"
 
 # GitHub Secrets에서 보안 값을 가져옵니다.
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
@@ -87,4 +87,5 @@ def main():
             print("변동 사항 없음.")
 
 if __name__ == "__main__":
+
     main()
