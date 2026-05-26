@@ -6,7 +6,7 @@ import os
 import requests
 
 # --- [1. 설정 영역] ---
-TARGET_URL = "https://newsac.kosac.re.kr/public/program/thumb?size=28&institutionId=83,72,51,58,60,84,57,78,50,52,75,74,65,86,79,70,56,53,81,89,45,47,63,55,64,68,62,67,88,54,85,66,49,48,77,80,87,61,69,73&programTypeCode=C0101&programRegionCode=C0504&targetCode=C0601&operationStatusCode=C1102&schoolLevelCode=G007"
+TARGET_URL = "https://newsac.kosac.re.kr/public/program/thumb?institutionId=117,109,100,108,107,135,126,134,125,124,133,116,110,132,99,123,122,98,97,131,93,106,96,115,119,130,113,111,118,127,92,105,95,121,101,120,91,104,94,103,129&programTypeCode=C0101&programRegionCode=C0504&targetCode=C0601&operationStatusCode=C1102&schoolLevelCode=G007"
 
 # GitHub Secrets에서 보안 값을 가져옵니다.
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
